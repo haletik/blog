@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RestTestController;
-
+use App\Http\Controllers\DiggingDeeperController;
 
 
 /*
@@ -19,6 +19,7 @@ use App\Http\Controllers\RestTestController;
 Route::get('/', function () {
     return view('welcome');
 });
+
 
 Route::middleware([
     'auth:sanctum',
